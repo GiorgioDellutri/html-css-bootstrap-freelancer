@@ -1,6 +1,7 @@
 header{
     background-color: #29B795;
     margin-bottom: 3rem;
+    height: 30vh;
 }
 
 .violet{
@@ -11,6 +12,8 @@ header{
     background-color: brown;
 }
 
-.header-content{
-    padding: 10rem;
+.square{
+    height: 400px;
+    background-color: crimson;
+    border: 5px solid black;
 }
