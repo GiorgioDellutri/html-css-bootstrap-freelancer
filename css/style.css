@@ -11,12 +11,23 @@ header{
     height: 400px;
 }
 
-.bg-card{
+.bordered{
+    border: 4px solid black;
+    height: 60px;
+}
+
+.about-text{
     background-color: brown;
+    height: 150px;
 }
 
 .square{
     height: 400px;
     background-color: crimson;
-    border: 5px solid black;
+    border-radius: 30px;
 }
+
+.about{
+    background-color: #29B795;
+}
+
