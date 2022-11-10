@@ -1,11 +1,16 @@
 header{
     background-color: #29B795;
+    margin-bottom: 3rem;
 }
 
 .violet{
     background-color: blueviolet;
 }
 
-h1{
+.bg-card{
+    background-color: brown;
+}
+
+.header-content{
     padding: 10rem;
 }
