@@ -1,11 +1,14 @@
 header{
     background-color: #29B795;
     margin-bottom: 3rem;
-    height: 30vh;
 }
 
 .violet{
     background-color: blueviolet;
+}
+
+.header-content{
+    height: 400px;
 }
 
 .bg-card{
