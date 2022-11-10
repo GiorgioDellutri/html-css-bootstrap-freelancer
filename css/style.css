@@ -1,6 +1,13 @@
+body{
+    color: white;
+}
+
 header{
     background-color: #29B795;
     margin-bottom: 3rem;
+}
+section.form{
+    height: 30vh;
 }
 
 .violet{
@@ -13,11 +20,10 @@ header{
 
 .bordered{
     border: 4px solid black;
-    height: 60px;
 }
 
 .about-text{
-    background-color: brown;
+    background-color: rgb(113, 220, 247);
     height: 150px;
 }
 
@@ -29,5 +35,14 @@ header{
 
 .about{
     background-color: #29B795;
+}
+
+
+.footer-top{
+    background-color: #354D62;
+}
+
+.footer-bottom{
+    background-color: #293947;
 }
 
