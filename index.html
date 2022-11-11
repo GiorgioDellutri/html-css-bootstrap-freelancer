@@ -18,24 +18,47 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 p-5">
-                    <picture>
-                        <source srcset="./img/avatar.svg" type="image">
-                        <img class="img-fluid" src="./img/avatar.svg" alt="">
-                    </picture>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a href="#" class="navbar-brand mb-0 h1 fs-2 text-uppercase text-light">start bootstrap</a>
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"> 
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav text-uppercase fs-5">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link text-light fw-bold">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link text-light fw-bold">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link text-light fw-bold">contact </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="row text-center pb-5">
-                <div class="col-12">
-                    <h1 class="display-3 text-uppercase fw-bolder">Start Bootstrap</h1>
-                    <div class="star fs-1">
-                        <div class="dash d-inline-block bg-light"></div>
-                        <i class="fa-solid fa-star ms-4 me-4"></i>
-                        <div class="dash d-inline-block bg-light"></div>
+        </nav>
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 p-5">
+                        <picture>
+                            <source srcset="./img/avatar.svg" type="image">
+                            <img class="img-fluid" src="./img/avatar.svg" alt="">
+                        </picture>
                     </div>
-                    <p class="text-uppercase fs-3">grafich artist - web designer - illustrator</p>
+                </div>
+                <div class="row text-center pb-5">
+                    <div class="col-12">
+                        <h1 class="display-3 text-uppercase fw-bolder">Start Bootstrap</h1>
+                        <div class="star mb-2">
+                            <div class="dash d-inline-block bg-light"></div>
+                            <i class="fa-solid fa-star ms-3 me-3"></i>
+                            <div class="dash d-inline-block bg-light"></div>
+                        </div>
+                        <p class="text-uppercase fs-3">grafich artist - web designer - illustrator</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -148,5 +171,7 @@
             </div>
         </section>
     </footer>
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

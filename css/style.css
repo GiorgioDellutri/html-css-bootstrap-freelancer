@@ -8,19 +8,22 @@ header{
     margin-bottom: 3rem;
 }
 
+nav{
+    background-color: #293947;
+}
+
 div.dash{
-    width: 160px;
+    width: 80px;
     height: 4px;
     background-color: #2C3E50;
     vertical-align: middle;
     border-radius: 30px;
+    margin-bottom: 10px;
 }
 
 i.fa-star{
     font-size: 2rem;
 }
-
-
 
 section.portfolio {
     margin-bottom: 150px;
