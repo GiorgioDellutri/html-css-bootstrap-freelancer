@@ -7,16 +7,25 @@ header{
     background-color: #29B795;
     margin-bottom: 3rem;
 }
-section.form{
-    height: 30vh;
+
+div.dash{
+    width: 160px;
+    height: 4px;
+    background-color: #2C3E50;
+    vertical-align: middle;
+    border-radius: 30px;
 }
+
+i.fa-star{
+    font-size: 2rem;
+}
+
 
 
 section.portfolio {
     margin-bottom: 150px;
     margin-top: 100px;
 }
-
 
 section.portfolio h1.portfolio-title{
     color: #333333;
@@ -26,10 +35,16 @@ section.portfolio div.star{
     color: #2C3E50;
 }
 
-
+section.portfolio div.img-card img{
+    border-radius: 10px;
+}
 
 section.about{
     background-color: #29B795;
+}
+
+section.form{
+    height: 30vh;
 }
 
 .footer-top{
