@@ -1,15 +1,28 @@
+:root{
+    --primary-text-color: white;
+    --seconday-text-color:#293947;
+    --section-green-color: #29B795;
+    --primary-footer-color: #354D62;
+    --dash-star-color: #2C3E50;
+    --h1-text-color: #333333;
+    --facebook-color: #1877F2;
+    --google-color: #D54C3F;
+    --twitter-color: #00A7E6;
+    --linkedin-color: #0073B1;
+}
+
 body{
-    color: white;
+    color: var(--primary-text-color);
     font-family: 'Yantramanav', sans-serif;
 }
 
 header{
-    background-color: #29B795;
+    background-color: var(--section-green-color);
     margin-bottom: 3rem;
 }
 
 nav{
-    background-color: #293947;
+    background-color: var(--seconday-text-color);
 }
 
 img.jumbo-img{
@@ -19,7 +32,7 @@ img.jumbo-img{
 div.dash{
     width: 80px;
     height: 4px;
-    background-color: #2C3E50;
+    background-color: var(--dash-star-color);
     vertical-align: middle;
     border-radius: 30px;
     margin-bottom: 10px;
@@ -37,29 +50,27 @@ section.portfolio {
 }
 
 section.portfolio h1, section.form h1{
-    color: #333333;
+    color: var(--h1-text-color);
 }
 
 section.portfolio, section.form div.star{
-    color: #2C3E50;
+    color: var(--dash-star-color);
 }
 
 section.portfolio div.img-card img{
     border-radius: 10px;
 }
 
-
 /*? SECTION ABOUT */
 
 section.about{
-    background-color: #29B795;
+    background-color: var(--section-green-color);
 }
-
 
 /*? SECTION FORM */
 
 section.form{
-    color: #333333;
+    color: var(--h1-text-color);
     margin: 100px 0;
 }
 
@@ -73,13 +84,13 @@ textarea{
 }
 
 button.btn{
-    background-color: #29B795;
-    color: white;
+    background-color: var(--section-green-color);
+    color: var(--primary-text-color);
 }
 
 /*? FOOTER */
 .footer-top{
-    background-color: #354D62;
+    background-color: var(--primary-footer-color);
 }
 
 div.footer-content p:first-child{
@@ -109,44 +120,44 @@ div.circle-button-social{
 }
 
 a{
-    color: white;
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 
 a:hover i.fa-facebook-f{
-    color: #1877F2;
+    color: var(--facebook-color);
 }
 
 a:hover div.fb{
-    color: #1877F2;
+    color: var(--facebook-color);
 }
 
 a:hover i.fa-google-plus-g{
-    color: #D54C3F;
+    color: var(--google-color);
 }
 
 a:hover div.g{
-    color: #D54C3F;
+    color: var(--google-color);
 }
 
 a:hover i.fa-twitter{
-    color: #00A7E6;
+    color: var(--twitter-color);
 }
 
 a:hover div.tw{
-    color: #00A7E6;
+    color: var(--twitter-color);
 }
 
 a:hover i.fa-linkedin-in{
-    color: #0073B1;
+    color: var(--linkedin-color);
 }
 
 a:hover div.linkd{
-    color: #0073B1;
+    color: var(--linkedin-color);
 }
 
 .footer-bottom{
-    background-color: #293947;
+    background-color: var(--seconday-text-color);
 }
 
 div.footer-content span.copyright{
