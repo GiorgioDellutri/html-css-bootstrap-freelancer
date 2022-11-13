@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-md fixed-top navbar-light">
             <div class="container">
                 <a href="#" class="navbar-brand mb-0 h1 fs-2 text-uppercase text-light">start bootstrap</a>
-                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"> 
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler "> 
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -33,19 +33,19 @@
                             <a href="#about" class="nav-link text-light fw-bold">About</a>
                         </li>
                         <li class="nav-item active">
-                            <a href="contact" class="nav-link text-light fw-bold">contact</a>
+                            <a href="#contact" class="nav-link text-light fw-bold">contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="jumbotron">
+        <section class="jumbotron mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 p-5">
-                        <picture>
+                        <picture class="d-flex justify-content-center">
                             <source srcset="./img/avatar.svg" type="image">
-                            <img class="img-fluid" src="./img/avatar.svg" alt="">
+                            <img class="img-fluid jumbo-img" src="./img/avatar.svg" alt="">
                         </picture>
                     </div>
                 </div>
@@ -61,18 +61,18 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
-    <!-- MAIN  -->
+<!-- MAIN  -->
     <main>
         <section class="portfolio">
-            <div class="container">
+            <div id="portfolio"  class="container">
                 <div class="row justify-content-center mb-4">
-                    <div class="col-7 col-sm-7 col-md-8 col-lg-5 text-center mb-3">
-                        <h1 id="portfolio" class="display-3 text-uppercase fw-bolder portfolio-title">portfolio</h1>
+                    <div class="col-12 col-sm-7 col-md-8 col-lg-5 text-center mb-3">
+                        <h1 class="display-3 text-uppercase fw-bolder portfolio-title">portfolio</h1>
                         <div class="star fs-1">
                             <div class="dash d-inline-block"></div>
-                            <i class="fa-solid fa-star ms-4 me-4"></i>
+                            <i class="fa-solid fa-star ms-3 me-3"></i>
                             <div class="dash d-inline-block"></div>
                         </div>
                     </div>
@@ -111,16 +111,16 @@
                 </div>
             </div>
             </section>
-
-        <section class="about">
+<!-- Section About  -->
+        <section class="about ">
             <div class="container p-5">
                 <div class="row">
                     <div class="row justify-content-center align-items-center gy-3">
-                        <div class="col-7 col-md-8 col-lg-5  text-center mb-3 ">
+                        <div class="col-12 col-md-8 col-lg-5  text-center mb-3 ">
                             <h1 id="about" class="display-3 text-uppercase fw-bolder portfolio-title">about</h1>
                             <div class="star fs-1">
                                 <div class="dash d-inline-block bg-light"></div>
-                                <i class="fa-solid fa-star ms-4 me-4"></i>
+                                <i class="fa-solid fa-star ms-3 me-3"></i>
                                 <div class="dash d-inline-block bg-light"></div>
                             </div>
                         </div>
@@ -141,37 +141,109 @@
                 </div>
             </div>
         </section>
+<!-- Section Form  -->
         <section class="form">
-            <br><br><br><br><br><br><br><br><br><br><br></br>
+            <div id="Contact"  class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-7 col-md-8 col-lg-5 text-center mb-3">
+                        <h1 class="display-3 text-uppercase fw-bolder ">Contact</h1>
+                        <div class="star fs-1">
+                            <div class="dash d-inline-block"></div>
+                            <i class="fa-solid fa-star ms-3 me-3"></i>
+                            <div class="dash d-inline-block"></div>
+                        </div>
+                    </div>
+                    <form class="row g-3">
+                        <div class="col-12">
+                            <label for="name" class="form-label fs-4">Name</label>
+                            <input type="text" class="form-control" id="name" required >
+                        </div>
+                        <div class="col-12">
+                            <label for="name" class="form-label fs-4">Email Address</label>
+                            <input type="email" class="form-control" id="name" required >
+                        </div>
+                        <div class="col-12">
+                            <label for="name" class="form-label fs-4">Phone number</label>
+                            <input type="text" class="form-control" id="name" required >
+                        </div>
+                        <div class="col-12">
+                            <label for="name" class="form-label fs-4">Message</label> <br>
+                            <textarea id="message" name="Message" rows="10" cols="154"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
+<!-- Footer  -->
     <footer>
         <section class="footer-top">
             <div class="container">
                 <div class="row justify-content-center py-5 g-4">
                     <div class=" col-11 col-md-4 col-lg-4">
-                        <div class="footer-content bordered"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, maxime.</div>
+                        <div class="footer-content text-center">
+                            <p>location</p>
+                            <span>2215 John Daniel Drive Clark, MO 54243</span>
+                        </div>
                     </div>
                     <div class="col-11 col-md-4 col-lg-4">
-                        <div class="footer-content bordered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, excepturi.</div>
+                        <div class="footer-content text-center">
+                            <p>Around the web</p>
+                            <ul class="list-social-buttons d-flex justify-content-center align-items-center">
+                                <a href="https://it-it.facebook.com/">
+                                    <div class="circle-button-social fb">
+                                        <li>
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </li>
+                                    </div>
+                                </a>
+                            <a href="#">
+                                <div class="circle-button-social g">
+                                    <li>
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </li>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/login?lang=it">
+                                <div class="circle-button-social tw">
+                                    <li>
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </li>
+                                </div>
+                            </a>
+                            <a href="https://it.linkedin.com/"><div class="circle-button-social-link">
+                                <div class="circle-button-social linkd">
+                                    <li>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </li>
+                                </div>
+                            </a>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-11 col-md-4 col-lg-4">
-                        <div class="footer-content bordered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, sequi.</div>
+                        <div class="footer-content bordered text-center fs-5">
+                            <p>About freelancer</p>
+                            <span>Freelancer is a free to use, open source Bootstrap theme created by</span>
+                            <span>Start Bootstrap</span>
+                        </div>
                     </div>
                 </div>
                 </div>
         </section>
         <section class="footer-bottom">
             <div class="container">
-                <div class="row justify-content-center py-3">
+                <div class="row justify-content-center py-4">
                     <div class="col text-center">
-                        <div class="footer-content">Lorem ipsum dolor</div>
+                        <div class="footer-content">
+                            <span class="copyright">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </footer>
-    <!-- JavaScript Bootstrap -->
+<!-- JavaScript Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
