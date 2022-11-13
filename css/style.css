@@ -29,7 +29,6 @@ i.fa-star{
     font-size: 2rem;
 }
 
-
 /*? SECTION PORTFOLIO */
 
 section.portfolio {
@@ -66,10 +65,16 @@ section.form{
 
 input.form-control, textarea{
     border: none;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #C6C6C6;
 }
 textarea{
     resize: none;
+    width: 100%;
+}
+
+button.btn{
+    background-color: #29B795;
+    color: white;
 }
 
 /*? FOOTER */
