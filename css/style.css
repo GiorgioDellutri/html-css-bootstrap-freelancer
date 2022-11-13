@@ -65,9 +65,11 @@ section.form{
 }
 
 input.form-control, textarea{
-    margin: 8px 0;
     border: none;
     border-bottom: 1px solid #333333;
+}
+textarea{
+    resize: none;
 }
 
 /*? FOOTER */
